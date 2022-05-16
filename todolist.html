@@ -1,30 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <h1 align="center">LGMVIP Task-1 Begginner Level</h1>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="todolist.css"   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"  />
+    <title>To Do List App</title>
 </head>
 <body>
-    <form>
-    <!--div class="divsection"--> 
+    <h1 class="title">
+        My TO Do List
+    </h1>
 
-        <h2 align="center">To Do List</h2>
-        <input type="text" id="Input" placeholder='Enter the values into list'>
-
-        <button type="submit" class="block">
-            <i class="glyphicon glyphicon-plus"></i>ADD
-          </button>
-    <!--/div-->
-    <div  class="container">
-    <ul id="unordered">
-
-    </ul>
-</div>
-</form>
-    <script src="todolist.js"></script>
+    <div class="todo-list">
+        <div class="list-head">
+            <input type="text" class="entered-list">
+            <button class="add-list" > Add </button>
+        </div>
+		<div class="tasks">
+        </div>
+    </div>
+    <script src="./to-do.js"></script>
 </body>
-
 </html>
-© 2022 GitHub, Inc.
-Terms
